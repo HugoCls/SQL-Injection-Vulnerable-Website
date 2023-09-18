@@ -1,0 +1,99 @@
+/* Réinitialisation des styles de base du navigateur */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'avertissement */
+.warning-message {
+    background-color: #ffcccc; /* Couleur de fond */
+    color: #ff0000; /* Couleur du texte */
+    padding: 10px; /* Espace intérieur */
+    text-align: center; /* Centrer le texte */
+}
+
+/* Style du conteneur pour la user-bar et la login-button */
+.user-bar-container {
+    position: fixed; /* Pour le positionnement fixe */
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background-color: #09435a;
+    text-align: center;
+    z-index: 2; /* Pour la superposition */
+    padding: 10px;
+}
+
+/* Style de la user-bar */
+.user-bar {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style de base partagé pour les boutons */
+.button {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Style spécifique pour le bouton de connexion */
+.login-button {
+    background-color: #308cb1;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #474444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style de la barre de recherche */
+.search-bar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Style des images de livres */
+.book-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}

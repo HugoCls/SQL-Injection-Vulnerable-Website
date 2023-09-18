@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Importer le fichier de style -->
+    <link rel="stylesheet" href="css/login.css" media="screen" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <!-- Zone d'inscription -->
+        <form action="php/inscription.php" method="POST">
+            <h1>Inscription</h1>
+
+            <label><b>Email*</b></label>
+            <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Entrez votre email" name="email" required>
+
+            <label><b>Mot de passe*</b></label>
+            <input type="password" placeholder="Entrez votre mot de passe" name="password" required>
+            <table>
+                <tr>
+                    <td><label><b>Nom</b></label></td>
+                    <td><label><b>Prénom</b></label></td>
+                    <td><label><b>Date de naissance</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Entrez votre nom" name="nom"></td>
+                    <td><input type="text" placeholder="Entrez votre prénom" name="prenom"></td>
+                    <td><input type="date" name="Date de naissance"></td>
+                </tr>
+            </table>
+            <input type="submit" id="submit" value="S'INSCRIRE">
+           
+        </form>
+    </div>
+</body>
+</html>
