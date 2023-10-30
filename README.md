@@ -18,8 +18,5 @@ To run this SQL injection vulnerable website, you will need a working SQL databa
 4. Configure the website to connect to your database by modifying the database connection settings in the source code if necessary.
 5. Host the website on your local server and access it through a web browser.
 
-## Author
-Created by Hugo Colson
-
 ## Contact
 For any questions or inquiries, please contact hugocls.pro@gmail.com
